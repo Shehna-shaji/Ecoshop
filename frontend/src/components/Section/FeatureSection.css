@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.feature-section{
+    width: 100%;
+    height: 612px;
+    padding-top: 160px;
+    /* padding-left: 60px; */
+    /* padding: 160px 60px 160px 60px; */
+    margin:auto;
+    position: relative;
+    gap: 40px;
+    
+
+}
+.section-container{
+    display: flex;
+    width: 1320px;
+    height: 192px;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    
+    width: 280px;
+    height: 164px;
+    border-radius: 8px;
+    gap: 16px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    width: 280px;
+    height: 88px;
+    gap: 4px;
+}
+.feature-heading{
+    width: 280px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Inter',sans-serif;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.feature-text{
+    width: 280px;
+    /* height: 56px; */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Inter',sans-serif ;
+    text-align: justify;
+    color: #666666;
+    
+    
+    
+    
+}
+.card-image{
+    width: 60px;
+    height: 60px;
+    /* padding-left: 40px; */
+}
+.shipping-image{
+    width: 55px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    left: 2.5px;
+}
+.section-title{
+    width: 1320px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #658C4A;
+    font-family:  'Libre Baskerville', serif;
+}
+.title-image{
+    width: 161px;
+    height: 56px;
+    border-radius: 40px;
+    /* transform: rotate(5deg); */
+    color: #E7CEC0;
+    position: absolute;
+    left: 20%;
+    z-index: -1;
+
+    
+}
+.satisfaction-image{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.ecofriendly-image{
+    width: 42.61px;
+    height: 42.56px;
+    position: relative;
+    top: 12.44px;
+    left: 7.5px;
+}
+.response-image{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 2.5px;
+    left: 2.5px;
+}
+
+@media (max-width:375px){
+    .feature-section{
+        width: auto;
+        height: 501px;
+        top: 983px;
+        padding-top: 140px;
+    }
+    .section-title{
+        width: 344px;
+        height: 25px;
+        font-size: 20px;
+        line-height: 24.8px;
+    }
+    .title-image{
+        width: 64px;
+        height: 22px;
+        left: 10%;
+    }
+    .section-container{
+        width: 100%;
+        height: 88px;
+        flex-direction: column;
+        margin-top: 80%;
+        justify-content: center;
+        
+    }
+    .feature-card{
+        width: 100%;
+        height: 114px;
+        margin: auto;
+    }
+    .card-container{
+        width: 164px;
+        height: 84px;
+    }
+    .card-image{
+        width: 32px;
+        height: 32px;
+        
+        margin: auto;
+    }
+    .shipping-image{
+        width: 29.33px;
+        height: 21.33px;
+    }
+    .satisfaction-image{
+        width: 26.67px;
+        height: 26.67px;
+    }
+    .ecofriendly-image{
+        width: 22.72px;
+        height: 22.7px;
+    }
+    .response-image{
+        width: 29.33px;
+        height: 29.33px;
+    }
+    .feature-heading{
+        width: 164px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .feature-text{
+        width: 164px;
+        height: 60px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 640px){
+    .feature-section{
+        width: auto;
+        top: 3799px;
+    }
+    .section-title{
+        width: auto;
+        height: 30px;
+    }
+    .title-image{
+        left: 5%;
+    }
+    .section-container{
+        width: auto;
+        height: 90px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}

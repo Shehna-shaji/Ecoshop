@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap");
+
+.New-Arrival {
+  /* padding: 80px 60px 80px 60px; */
+  /* display: grid; */
+  /* grid-template-columns: 250px 250px 250px 250px; */
+  position: relative;
+  /* top: 550px; */
+  /* padding-left: 60px; */
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+  height: 778px;
+
+  background-color: #ffffff;
+}
+.arrival-container {
+  display: flex;
+  /* flex-direction: column; */
+  padding: 80px 60px 80px 60px;
+
+  width: 100%;
+  /* height: 78px; */
+  /* gap: 16px; */
+
+  justify-content: space-between;
+}
+.arrival {
+  width: 1208px;
+  height: 78px;
+}
+.arrival-title {
+  width: 596px;
+  height: 50px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49.6px;
+  color: #333333;
+}
+.arrival-text {
+  font-family: "Inter", sans-serif;
+  /* position: relative;
+    bottom: 10%; */
+  width: 596px;
+  height: 24px;
+  /* padding-left: 40px; */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+.list-frame {
+  width: 1320px;
+  height: 408px;
+  display: grid;
+  margin: auto;
+  padding-left: 40px;
+  /* grid-template-columns: 250px 250px 250px 250px;  */
+  grid-template-columns: repeat(4, 1fr);
+}
+.product-list {
+  display: grid;
+  /* width: 2664px; */
+  height: 408px;
+  gap: 24px;
+}
+.card-product {
+  width: 312px;
+  height: 408px;
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+}
+.arrival-image {
+  width: 312px;
+  height: 312px;
+  border-radius: 8px;
+}
+.image-title {
+  color: #333333;
+  font-family: "Inter", sans-serif;
+
+  width: 312px;
+  height: 56px;
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 20px;
+}
+.product-price {
+  width: 312px;
+  height: 24px;
+  /* position: relative; */
+  font-family: "Inter", sans-serif;
+
+  font-weight: 600;
+  font-size: 16px;
+  color: #658c4a;
+}
+.arrow {
+  display: flex;
+  gap: 16px;
+
+  /* width: 40px; */
+  height: 40px;
+  border-radius: 40px;
+  padding: 8px;
+
+  color: #e6e6e6;
+}
+.arrow-img {
+  width: 24px;
+  height: 24px;
+}
+
+.arrival-button {
+  width: 140px;
+  height: 52px;
+  border-radius: 40px;
+  border: none;
+  padding: 12px 24px 12px 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  line-height: 15px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+
+  background-color: #658c4a;
+}
+.button-text {
+  text-align: center;
+  margin: auto;
+}
+.h4 {
+  width: 92px;
+  height: 28px;
+}
+
+@media (max-width: 375px) {
+  .New-Arrival {
+    width: auto;
+    height: 474px;
+    top: 250px;
+    /* padding-top: 20px; */
+  }
+  .arrival-container {
+    width: auto;
+    height: 50px;
+    gap: 4px;
+    display: grid;
+    padding-left: 20px;
+  }
+  .arrival-title {
+    width: 344px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 29.76px;
+  }
+  .list-frame {
+    width: auto;
+    height: 252px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .product-list {
+    width: auto;
+    height: 252px;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .card-product {
+    width: auto;
+    height: 252px;
+    justify-content: center;
+  }
+  .arrival-image {
+    width: 180px;
+    height: 180px;
+  }
+  .image-title {
+    width: 148px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .arrow {
+    /* display: none; */
+    width: auto;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+  }
+  .arrow-img {
+    width: 18px;
+    height: 18px;
+  }
+  .arrival-text {
+    width: 344px;
+    height: 16px;
+    font-size: 12px;
+  }
+  .arrival {
+    width: auto;
+    height: 48px;
+  }
+  .product-price {
+    width: 148px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .arrival-button {
+    width: 112px;
+    height: 44px;
+    font-size: 14px;
+    position: absolute;
+    top: 230%;
+    left: 20%;
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 640px){
+  .New-Arrival{
+    width: auto;
+    top: 3200px;
+  }
+  .arrival-container{
+    width: auto;
+    /* display: grid; */
+  }
+  .arrival{
+    width: auto;
+    height: 58px;
+  }
+  .arrival-text{
+    text-align: center;
+  }
+  .list-frame{
+    width: auto;
+    height: 300px;
+    grid-template-columns: auto auto;
+  }
+  .arrival-button{
+    position: absolute;
+    top: 130%
+  }
+}
+
+@media only screen and (max-width:1280px) and (min-width:1024px) {
+  .New-Arrival{
+    width: auto;
+    top: 500px;
+  }
+  .list-frame{
+    width: auto;
+    grid-template-columns: auto auto;
+  }
+  .arrival-button{
+    position: absolute;
+    top: 140%;
+  }
+  .arrival-container{
+    width: auto;
+    
+    
+  }
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
+
+
+
+.category-section {
+    display: flex;
+    /* margin-top: 80px; */
+    gap: 10px;
+    width: 100%;
+    height: 360px;
+    padding: 80px 60px 80px 60px;
+    position: relative;
+    /* top: 662px; */
+    /* flex-wrap: wrap; */
+    
+    
+    
+    
+    
+  }
+  
+  h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49.6px;
+    color: #658c4a;
+    /* width: 200px; */
+    /* height: 150px; */
+    /* padding-left: 40px; */
+  
+  }
+  
+  .category-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .category-banner {
+    /* overflow-y: scroll; */
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    color: #658c4a;
+    position: relative;
+    
+  }
+  
+  .category-button {
+    width: 100px;
+    /* height: 36px; */
+   
+    /* margin-top: 140px; */
+    /* margin-left: 24px; */
+    padding:   8px 8px ;
+    border-radius: 40px;
+    color: #333333;
+    position: absolute;
+    right: 10%;
+    top: 140px;
+    left: 24px;
+    background-color: #333333;
+    border: none;
+
+  }
+  
+  
+  
+  .category-title {
+    background-color: transparent;
+        width: 88px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+     */
+    color: #FFFFFF;
+    
+    
+  }
+@media (max-width:375px){
+  .category-section{
+    width: auto;
+    height: 1312px;
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  .category-image{
+    width: 284px;
+    height: 284px;
+  }
+  .category-button{
+    top: 180px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 640px){
+  .category-section{
+    width: auto;
+    /* height: 1312px; */
+    flex-direction: column;
+    gap: 15rem;
+    padding: 30px;
+    
+  }
+  .category-image{
+    width: 600px;
+    height: 600px;
+  }
+  h3{
+    margin-top:40px;
+    text-align: center;
+  }
+  .category-banner{
+    width: 400px;
+    height: 400px;
+  }
+  .category-button{
+    width: 140px;
+    font-size: 16px;
+    top: 440px;
+    left: 40%;
+  }
+
+}
+
+@media only screen and (max-width:1280px) and (min-width:1024px){
+  .category-section{
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
